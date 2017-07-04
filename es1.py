@@ -1,0 +1,9 @@
+from math import floor
+e=2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274
+n=int(input())
+ans=0
+for x in range(1,n+1):
+	#print(floor(x*e))
+	ans=ans+floor(x*e)
+print(ans) 
+
